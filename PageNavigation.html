@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Navigation</title>
+    <style>
+     nav {
+      background-color: #0fecf0;
+      overflow: hidden;
+    }
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    
+    nav a.active {
+      background-color: #3005ed;
+      color: white;
+    }
+    nav a:hover {
+      background-color: #b5bbb5;
+      color: white;
+    }
+    body{
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="home">
+        <h1>Welcome to Home</h1>
+        <p>This is the home section.</p><hr>
+    </section>
+    <section id="about">
+        <h1>About Us</h1>
+        <p>This is the about section.</p><hr>
+    </section>
+    <section id="services">
+        <h1>Our Services</h1>
+        <p>This is the services section.</p><hr>
+    </section>
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <p>This is the contact section.</p><hr>
+    </section>
+</body>
+</html>
