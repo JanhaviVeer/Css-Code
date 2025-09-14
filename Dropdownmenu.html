@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+    <style>
+        .drop{
+            display:inline-block;
+        }
+        .drop button{
+            padding: 10px 15px;
+            background-color: antiquewhite;
+            color:blueviolet;
+            border:none;
+            cursor: pointer;
+        }
+        .drop .content{
+            display: none;
+            position:absolute;
+            background-color: antiquewhite;
+            min-width:100px;
+            box-shadow: 2px 2px 5px rgb(165, 152, 152);
+        }
+        .drop :hover .content{
+            display: block;
+        }
+        .drop:hover button{
+            background-color: aliceblue;
+        }
+        .drop a:hover{
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <div class="drop">
+        <button>Colors</button>
+        <div class="content">
+            <a href="">Pink</a>
+            <a href="">Blue</a>
+            <a href="">Red</a>
+        </div>
+    </div>
+</body>
+</html>
